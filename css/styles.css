@@ -1,4 +1,4 @@
-/* index.html Главная */
+/* Styles for index.html Главная */
 
 :root {
   --primary-text-color: #757575;
@@ -10,7 +10,7 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
-.list {
+ul {
   list-style: none;
 }
 /* Цвет основного текста #212121 */
@@ -41,6 +41,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -82,3 +85,5 @@ body {
 .part-white {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Styles for PORTFOLIO */
