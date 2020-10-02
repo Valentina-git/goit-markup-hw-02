@@ -1,0 +1,84 @@
+/* index.html Главная */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+/* Цвет основного текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Акцент #2196F3 */
+
+/* белый #FFFFFF */
+/* белый футер  rgba(255, 255, 255, 0.6); */
+
+/* главный цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона футера, hero #2F303A */
+
+/* Logo */
+.logo {
+  color: var(--title-text-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+.accent-web {
+  color: var(--accent-color);
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Site-contacts */
+.site-contacts .contact {
+  color: var(--primary-text-color);
+}
+.site-contacts .contact:hover {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+/* Feature */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.work-list .title {
+  color: var(--title-text-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.full-white {
+  color: var(--primary-white-color);
+}
+.part-white {
+  color: rgba(255, 255, 255, 0.6);
+}
