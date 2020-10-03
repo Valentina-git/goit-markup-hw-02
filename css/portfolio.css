@@ -1,0 +1,43 @@
+.filters .link {
+  color: var(--title-text-color);
+}
+.filters .link:focus {
+  color: var(--accent-color);
+}
+.filters .link:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Site-contacts */
+/* .site-contacts .contact {
+  color: var(--primary-text-color);
+}
+.site-contacts .contact:hover {
+  color: var(--accent-color);
+} */
+
+/* HERO */
+/*
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}*/
+.section-title {
+  color: var(--title-text-color);
+}
+/* Projects */
+
+.projects-list .title {
+  color: var(--title-text-color);
+}
+/*
+.work-list .title {
+  color: var(--title-text-color);
+}
+.button-services {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}  */
