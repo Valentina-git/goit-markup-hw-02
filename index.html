@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -12,8 +16,12 @@
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="" class="logo"> <span class="accent-web">Web</span>Studio </a>
+        <!-- Logo-header -->
+        <a href="" class="logo logo-header">
+          <span class="accent-web">Web</span>Studio
+        </a>
 
+        <!-- Site  -->
         <ul class="site-nav list">
           <li><a href="./index.html" class="link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -27,42 +35,42 @@
     </header>
 
     <main>
-      <!-- Герой -->
+      <!-- Hero  -->
       <section class="hero">
         <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="button-services">Заказать услугу</button>
+        <button class="services">Заказать услугу</button>
       </section>
 
-      <!-- Особенности-->
+      <!-- Features-->
       <section class="section">
         <h2 class="section-title">Особенности</h2>
         <ul class="feature-list">
           <li>
-            <h3 class="title">Внимание к деталям</h3>
+            <h3 class="feature-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3 class="title">Пунктуальность</h3>
+            <h3 class="feature-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3 class="title">Планирование</h3>
+            <h3 class="feature-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3 class="title">Современные технологии</h3>
+            <h3 class="feature-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -70,6 +78,7 @@
           </li>
         </ul>
       </section>
+
       <!-- Чем мы занимаемся-->
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
@@ -97,12 +106,13 @@
           </li>
         </ul>
       </section>
+
       <!-- Наша команда-->
       <section>
         <h2 class="section-title">Наша команда</h2>
         <ul class="work-list">
           <li>
-            <h3 class="title">Игорь Демьяненко</h3>
+            <h3 class="work-title">Игорь Демьяненко</h3>
             <p>Product Designer</p>
             <img
               src="./images/игорь.jpg"
@@ -111,12 +121,12 @@
             />
           </li>
           <li>
-            <h3 class="title">Ольга Репина</h3>
+            <h3 class="work-title">Ольга Репина</h3>
             <p>Frontend Developer</p>
             <img src="./images/ольга.jpg" alt="Фото Ольга Репина" width="270" />
           </li>
           <li>
-            <h3 class="title">Николай Тарасов</h3>
+            <h3 class="work-title">Николай Тарасов</h3>
             <p>Marketing</p>
             <img
               src="./images/николай.jpg"
@@ -125,7 +135,7 @@
             />
           </li>
           <li>
-            <h3 class="title">Михаил Ермаков</h3>
+            <h3 class="work-title">Михаил Ермаков</h3>
             <p>UI Designer</p>
             <img
               src="./images/михаил.jpg"
@@ -136,14 +146,16 @@
         </ul>
       </section>
     </main>
+
     <!-- Футер-->
     <footer class="footer">
-      <a href="" class="logo-footer">
+      <!-- Logo-footer -->
+      <a href="" class="logo logo-footer">
         <span class="accent-web">Web</span>Studio
       </a>
 
       <address>
-        <ul class="list">
+        <ul class="list-footer">
           <li class="full-white">г. Киев, пр-т Леси Украинки, 26</li>
           <li class="part-white">info@example.com</li>
           <li class="part-white">+38 099 111 11 11</li>

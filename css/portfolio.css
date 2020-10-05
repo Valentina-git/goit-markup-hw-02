@@ -1,43 +1,34 @@
-.filters .link {
+/* Filters */
+button {
   color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
 }
-.filters .link:focus {
+button:focus {
   color: var(--accent-color);
 }
-.filters .link:hover {
+button:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-/* Site-contacts */
-/* .site-contacts .contact {
-  color: var(--primary-text-color);
-}
-.site-contacts .contact:hover {
-  color: var(--accent-color);
-} */
-
-/* HERO */
-/*
-.hero {
-  background-color: #2f303a;
-}
-.hero-title {
-  color: var(--primary-white-color);
-}*/
-.section-title {
-  color: var(--title-text-color);
-}
 /* Projects */
-
+.section-title,
 .projects-list .title {
   color: var(--title-text-color);
 }
-/*
-.work-list .title {
-  color: var(--title-text-color);
+.projects-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.button-services {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}  */
+.projects-list .indent {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
