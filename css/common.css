@@ -24,6 +24,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 /* Logo */
 .logo {
@@ -70,12 +73,15 @@ ul {
 .footer {
   background-color: #2f303a;
 }
+address {
+  font-style: normal;
+}
 .list-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-.list-footer li:hover {
+.list-footer :hover {
   color: var(--accent-color);
 }
 .full-white {
