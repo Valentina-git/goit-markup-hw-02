@@ -23,9 +23,19 @@ body {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
+}
+
+/* Page-header */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
 }
 
 /* Logo */
@@ -75,18 +85,27 @@ a {
 }
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 .list-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
+.list-footer .link {
+  display: inline-block;
+}
 .list-footer :hover {
   color: var(--accent-color);
 }
 .full-white {
+  margin-bottom: 9px;
   color: var(--primary-white-color);
 }
 .part-white {
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
+}
+.zero {
+  margin-bottom: 0;
 }

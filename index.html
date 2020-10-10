@@ -8,13 +8,17 @@
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body class="page">
     <!-- Шапка сайта -->
-    <header>
+    <header class="page-header">
+      <div class="container">
       <nav>
         <!-- Logo-header -->
         <a href="" class="logo logo-header">
@@ -32,6 +36,7 @@
         <li class="contact">info@devstudio.com</li>
         <li class="contact">+38 096 111 11 11</li>
       </ul>
+      </div>
     </header>
 
     <main>
@@ -46,6 +51,7 @@
 
       <!-- Features-->
       <section class="section">
+        <div class="container">
         <h2 class="section-title">Особенности</h2>
         <ul class="feature-list">
           <li>
@@ -77,10 +83,12 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Чем мы занимаемся-->
       <section class="section">
+        <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
@@ -105,10 +113,12 @@
             />
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Наша команда-->
-      <section>
+      <section class="section">
+        <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="work-list">
           <li>
@@ -144,11 +154,13 @@
             />
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <!-- Футер-->
     <footer class="footer">
+      <div class="container">
       <!-- Logo-footer -->
       <a href="" class="logo logo-footer">
         <span class="accent-web">Web</span>Studio
@@ -157,16 +169,17 @@
       <address>
         <ul class="list-footer">
           <li>
-            <a href="" class="full-white">г. Киев, пр-т Леси Украинки, 26 </a>
+            <a href="" class="full-white link">г. Киев, пр-т Леси Украинки, 26 </a>
           </li>
           <li>
-            <a href="" class="part-white">info@example.com</a>
+            <a href="" class="part-white link">info@example.com</a>
           </li>
           <li>
-            <a href="" class="part-white">+38 099 111 11 11</a>
+            <a href="" class="part-white link zero">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
